@@ -1,4 +1,16 @@
-﻿This project is a Windows port of the [whisper.cpp](https://github.com/ggerganov/whisper.cpp) implementation.<br/>
+﻿# A Note from the Author
+
+This open-source software hasn’t been updated since 2023.
+
+I’ve built [a commercial successor](https://vrmac-softver.com/speech2text) with a new speech to text engine.
+The engine is mostly implemented in AOT-compiled C#.
+The new software includes Direct3D 12 and Vulkan 1.3 compute backends,
+and supports inference on the [Voxtral Mini 4B Realtime](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602) model.
+The software is closed source with free 30-day evaluation, one-time purchase afterward.
+
+---
+
+This project is a Windows port of the [whisper.cpp](https://github.com/ggerganov/whisper.cpp) implementation.<br/>
 Which in turn is a C++ port of [OpenAI's Whisper](https://github.com/openai/whisper) automatic speech recognition (ASR) model.
 
 # Identity Hijacking Warning
